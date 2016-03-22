@@ -1,0 +1,35 @@
+{
+  "name": "streaming-proxy",
+  "version": "1.0.0",
+  "description": "functional highlnad js todo app",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "nodemon ./index.js",
+    "test": "mocha test/*",
+    "test:watch": "npm test -- -w",
+    "test:debug": "npm test -- -w --debug-brk"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Nick Nance",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.1.1",
+    "hapi": "^13.2.1",
+    "highland": "^2.7.1",
+    "objstream": "^1.0.1",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-filenames": "^0.2.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.1",
+    "sinon": "^1.17.3"
+  }
+}
