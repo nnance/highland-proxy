@@ -1,7 +1,7 @@
 {
   "name": "streaming-proxy",
   "version": "1.0.0",
-  "description": "functional highlnad js todo app",
+  "description": "functional highlnad js streaming proxy",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -19,8 +19,7 @@
     "JSONStream": "^1.1.1",
     "hapi": "^13.2.1",
     "highland": "^2.7.1",
-    "objstream": "^1.0.1",
-    "rx": "^4.1.0"
+    "objstream": "^1.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
